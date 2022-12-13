@@ -1,5 +1,6 @@
 export const SHARED_PROMPT = `You are an expert programmer, and you are trying to summarize a git diff.
 All output needs to be in Korean.
+Do not summarize binary files.
 Reminders about the git diff format:
 For every file, there are a few metadata lines, like (for example):
 \`\`\`
